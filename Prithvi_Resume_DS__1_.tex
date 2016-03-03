@@ -1,0 +1,207 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Prithvi}{Yarlagadda}
+\title{MS} % optional, remove / comment the line if not wanted
+\address{12 Dales Ave, Jersey City, New Jersey}{}{}
+% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{201.205.5690}
+\phone[fixed]{+1 201 936 3493}
+%\phone[fax]{+3~(456)~789~012}
+\email{pyarlagadda@mail.saintpeters.edu}
+\homepage{in.linkedin.com/in/yprithvi}
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{Strong experience in Big Data Analytics, Application Building}
+
+\section{Education}
+\vspace{5pt}
+
+\cventry{Expected graduation 2017}{Saint Peter's University}{MS in Data Science with a Concentration in Business Analytics}{Jersey City, NJ}{\textit{}}{}
+
+\cventry{2012-2014}{International Institute of Information Technology}{MS in Information Technology}{Hyderabad, Telangana, India}{\textit{CGPA 7.13}}{}
+
+\vspace{2pt}
+
+
+
+\vspace{6pt}
+
+\section{Graduate Projects}
+\vspace{5pt}
+
+\textbf{Cricket Winner Prediction}\hfill{SPU, NJ}
+\textit{}
+
+\vspace{3pt}
+\begin{itemize}
+\item{\textbf{Technologies Used:}Python, R}
+\item{\textbf{Description:} Cricket winners prediction based on previous data in One Day International mode. Apply various regression models on this data and predict the winner considering all the parameters}
+\end{itemize}
+\vspace{5pt}
+\textbf{Mini Search Engine}\hfill{IIIT-H, IN}
+\textit{}
+
+\vspace{3pt}
+\begin{itemize}
+\item{\textbf{Technologies Used:}Java}
+\item{\textbf{Description:} Built upon a web crawler to search the required information. This project involves typical data structures.}
+\end{itemize}
+
+\vspace{5pt}
+
+\textbf{Data Visualization}\hfill{IIIT-H, IN}
+\textit{}
+
+\vspace{3pt}
+\begin{itemize}
+\item{\textbf{Technologies Used:}Python}
+\item{\textbf{Description:} Extracted top S\&P500 companies finance data. Calculated and visualized top 10 company’s Correlation, Treemap and Sparkline.}
+\end{itemize}
+
+\vspace{5pt}
+
+\textbf{Library for Salarjung Museum}\hfill{IIIT-H, IN}
+\textit{}
+
+\vspace{3pt}
+\begin{itemize}
+\item{\textbf{Technologies Used:}JavaScript, JSP, HTML, Ajax and XML}
+\item{\textbf{Description:} Online library for all the books of Museum as books are aging. This library includes functionalities like bookshelf, bookmarks and sorting.}
+\end{itemize}
+
+\vspace{6pt}
+\section{Professional Experience}
+\vspace{6pt}
+
+\cventry{2014-2015}
+{Saven Technologies Ltd.}{Application Developer and Big Data Analyst}{Hyderabad, India}{}{
+\vspace{3pt}
+\begin{itemize}
+\item{\textbf{Project Name:}TG Data Mining}
+\item{\textbf{Technologies Used:}Java, Hadoop, MapReduce, Sqoop}
+\item{\textbf{Description:}Decreased the execution time to 4 hrs/query by implementing it in Hadoop technology, in SQL it took around 7 days. 40 TB(1 Quarter ~ 500Million records) of data is to be processed from transactions data and find user's details from each description. This works as an ETL tool which extracts data from SQL, find the user's details and load back into SQL.}
+\end{itemize}
+}
+
+\vspace{6pt}
+
+% \cventry{2014-2015}
+% {Saven Technologies Ltd.}{Application Developer and Big Data Analyst}{Hyderabad, India}{}{
+% \vspace{3pt}
+\begin{itemize}
+\item{\textbf{Project Name:}TG Spark}
+\item{\textbf{Technologies Used:}Java, Hadoop, Spark}
+\item{\textbf{Description:}Upgraded the TG Data mining project by implementing on Apache Spark which decreased the execution time by 10\%. Also writing the output to HDFS and again inserting into SQL is time consuming, so included the "insert" in map function with JDBC drivers, this saved accountable amount of time.}
+\end{itemize}
+
+
+\vspace{6pt}
+
+% \cventry{2014-2015}
+% {Saven Technologies Ltd.}{Application Developer and Big Data Analyst}{Hyderabad, India}{}{
+% \vspace{3pt}
+\begin{itemize}
+\item{\textbf{Project Name:}TG Data Analytics}
+\item{\textbf{Technologies Used:}Tableau}
+\item{\textbf{Description:} Represented the yearly, quarterly and monthly returns of various companies. This included the calculation of data fiels and work-arounds.}
+\end{itemize}
+
+
+\vspace{6pt}
+
+% \cventry{2014-2015}
+% {Saven Technologies Ltd.}{Application Developer and Big Data Analyst}{Hyderabad, India}{}{
+% \vspace{3pt}
+\begin{itemize}
+\item{\textbf{Project Name:}Portlet Platform}
+\item{\textbf{Technologies Used:}MarkLogic, Java, Rest API, XML, JSON, Xquery, XSLT}
+\item{\textbf{Description:} Research and developed the Marklogic cluster, this is one of the data sources for portlet platform. As no one has prior experience or heard about Marklogic, had to start form basics and make it compatable to project. Functionalities like CRUD and RESTful services are implemented according to the project.}
+\end{itemize}
+
+
+\section{Computer Skills}
+\vspace{6pt}
+\begin{itemize}
+\item \textbf{Programming and Database:} Python, Java, R, C, SQL
+\vspace{6pt}
+\item \textbf{Frameworks:} Hadoop, MapReduce, Sqoop
+\vspace{6pt}
+\item \textbf{Tools:} MarkLogic, Tableau
+\vspace{6pt}
+\item \textbf{Scripting:} Javascript
+\vspace{6pt}
+\item \textbf{Functional:} Xquery, XSLT
+\vspace{6pt}
+\item \textbf{Cloud Services and Operating Systems:} Amazon Web Services, Windows/Linux
+\vspace{6pt}
+\item {Good knowledge in Restful WebServices.} 
+\vspace{6pt}
+\item {Good hands on experience in Shell scripting.} 
+\end{itemize}
+
+\section{References}
+\vspace{6pt}
+\begin{itemize}
+\item{- Professor Sylvain Jaume, Data Science Graduate Director, Saint Peter’s University, sjaume@saintpeters.edu}
+\item{- Prakash Raju Meka, Manager, Saven Technologies Ltd, prakash.raju@saven.in}
+\item{- Dr. Arun Kumar Parayatham, Resource Principal Mentor, MSIT, International Institute of Information Technology-Hyderabad, arunkp@msitprogram.net}
+
+\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}  % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%----- letter ------------------------------------
+
+\end{document}
+%% end of file `template.tex'.
